@@ -15,7 +15,7 @@ html {
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: #f91e1e !important;
 }
 
 button:focus {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #20213c;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #000000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(240, 234, 240, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(255, 255, 255, 0.911);
   border-radius: 12px;
 }
 
@@ -76,9 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: whitesmoke !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(78, 71, 71, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -86,7 +86,8 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  font-size: 1.4rem !important;
+  
 }
 
 .navbar-toggler {
@@ -97,7 +98,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #3333e4 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -140,18 +141,19 @@ button:focus {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    padding: 0.4rem 2rem !important;
+    font-size: 1.1rem !important;
+    background-color: whitesmoke !important;
+    
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(56, 65, 234) !important;
 }
 
 .logo {
@@ -160,7 +162,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #ef1e1e !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -194,7 +196,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #2563eb;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -205,188 +207,34 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
-/* Home section */
-/* --------- */
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
-
-.home-header {
-  padding-top: 80px !important;
-}
-
-.home-section {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
-}
-
-.home-content {
-  padding: 9rem 0 2rem !important;
-  color: whitesmoke;
-  text-align: left;
-}
-
-.heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
-}
-
-.heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
-}
-
 .main-name {
-  color: #cd5ff8;
-}
+  color: #fb2020;
+} 
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
-  color: #be6adf !important;
+  font-size: 1.0em !important;
+  color: #2563eb !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #b562d6 !important;
-}
-
-@media (max-width: 767px) {
+  font-size: 1.0em !important;
+  color: #2563eb !important;
+} 
+@media (max-width: 1024px){
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
-  }
-  .Typewriter__cursor {
-    display: none !important;
+    font-size: 1.0em !important;
   }
 }
 
-.myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
-}
+ @media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 22px !important;
+    font-weight: 600 !important;
 
-@media (max-width: 767px) {
-  .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
   }
 }
 
-.home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
-}
 
-.home-about-description {
-  color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
-  text-align: center;
-}
-
-.home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
-}
-
-.home-about-social {
-  text-align: center !important;
-  padding-top: 25px;
-  color: white !important;
-}
-
-.home-about-social-links {
-  justify-content: center !important;
-  padding-top: 15px !important;
-  display: inline-block !important;
-  position: relative !important;
-  padding-inline-start: 0 !important;
-}
-
-.home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
-  border-radius: 50% !important;
-  transition: 0.5s !important;
-}
-
-.home-social-icons::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #68187a;
-  transition: 0.5s;
-  transform: scale(0.9);
-  z-index: -1;
-}
-
-.home-social-icons:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
-}
-
-.home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
-}
 
 .social-icons {
   display: inline-block !important;
@@ -394,15 +242,12 @@ button:focus {
   padding-left: 15px;
 }
 
-.icon-colour {
-  color: #700c86 !important;
-}
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(33, 32, 34);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -439,16 +284,20 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #100cf9 !important;
 }
 /* --------- */
+
+
+
+
 /* Projects */
 /* --------- */
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #161616;
 }
 
 .project-card {
@@ -460,7 +309,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(53, 76, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -470,9 +319,12 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(72, 84, 144, 0.561) !important;
 }
-
+.card-title-purple{
+  color: #2563eb !important;
+  
+}
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -483,7 +335,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgba(77, 98, 161, 0.459) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -501,7 +353,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(88, 91, 173, 0.65) !important;
 }
 
 .card-img-top {
@@ -518,21 +370,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #e74d4d !important;
+  border-color: #863636 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #c52020d7 !important;
+  border-color: #c52020d7 !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: rgb(16, 16, 16) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -540,14 +392,13 @@ button:focus {
 
 /* --------- */
 /* About */
-/* --------- */
+
 
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(5, 5, 5) !important;
 }
 
 .tech-icons {
@@ -555,12 +406,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(230, 137, 137, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(168, 4, 4, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -574,7 +425,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(230, 115, 115, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -583,7 +434,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: rgb(5, 5, 5)!important;
   background-color: transparent !important;
 }
 
@@ -598,7 +449,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
+
 /* Resume */
 /* --------- */
 
@@ -727,7 +578,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #f028285e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -735,8 +586,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #235af086 !important;
+  border-color: #e13a3a86 !important;
 }
 .fork-btn-inner::after {
   display: none !important;

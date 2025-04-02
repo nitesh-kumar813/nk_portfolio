@@ -19,7 +19,7 @@ function AboutCard() {
           </p>
           
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(81, 84, 237)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">NiteshK.</footer>

@@ -1,0 +1,342 @@
+.container22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.first-cont22,
+.introduce-myself22 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  text-align: start;
+}
+
+/* First section */
+.first-cont22 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 80vh;
+}
+
+.text-section22 {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.greeting22 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name22 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.highlight22 {
+  color: #2563eb;
+}
+
+.role22 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+}
+
+.description22 {
+  font-size: 16px;
+  color: #666;
+  margin: 15px 0;
+}
+
+.buttons22 {
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+}
+
+.btn22 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.download22 {
+  background-color: #ef1e1e;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.download22:hover {
+  background-color: #de4545;
+}
+
+.image-section22 {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image22 {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+/* Second section*/
+.introduce-myself22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 40px;
+  text-align: start;
+}
+
+.introduce-content22 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.introduce-title22 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #262627;
+}
+
+.introduce-body22 {
+  font-size: 23px;
+  color: #292828;
+  line-height: 1.6;
+  width: 850px;
+}
+.highlight33 {
+  color: #2563eb;
+}
+.avatar-image22 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  /* margin-top: 20px; */
+  
+}
+
+/* Social Links Section */
+.social-links-section22 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.social-title22 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #2563eb;
+}
+
+.social-description22 {
+  font-size: 18px;
+  color: #333;
+}
+
+.social-icons22 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icons22 a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #0b0b0b;
+  background-color: rgb(237, 231, 231);
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.social-icons22 a:hover {
+  color: white;
+  background-color: #719af3;
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.8);
+  transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+  .introduce-content22 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .introduce-text22 {
+    max-width: 50%;
+  }
+  .introduce-body22 {
+    width: auto;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .introduce-title22 {
+    font-size: 38px;
+  }
+  .avatar-image22 {
+    width: 250px;
+    height: 250px;
+  }
+  .name22 {
+    font-size: 35px;
+  }
+  .container22 {
+    padding-top: 80px;
+  }
+  .profile-image22 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container22 {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .first-cont22 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .text-section22 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .greeting22 {
+    font-size: 18px;
+  }
+
+  .name22 {
+    font-size: 30px;
+  }
+
+  .role22 {
+    font-size: 20px;
+  }
+
+  .description22 {
+    display: none;
+  }
+
+  .buttons22 {
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .btn22 {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .image-section22 {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .profile-image22 {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* Second Section */
+  .introduce-myself22 {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .introduce-content22 {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .introduce-title22 {
+    font-size: 28px;
+  }
+
+  .introduce-body22 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .introduce-text22 {
+    max-width: 100%;
+    text-align: start;
+  }
+
+  .avatar-image22 {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Social Links */
+  .social-links-section22 {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-icons22 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .social-icons22 a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+  }
+  .social-title22 {
+    font-size: 30px;
+  }
+}
