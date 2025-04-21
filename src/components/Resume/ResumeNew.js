@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Nitesh_Resume 7.2.pdf";
-import resumeImage from "../../Assets/Nitesh_Resume 7.2.jpg"; 
+import pdf from "../../Assets/../Assets/Nitesh_Resume 8.0.pdf";
+import resumeImage from "../../Assets/Nitesh_Resume 8.0.jpg"; 
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {

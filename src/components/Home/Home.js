@@ -11,7 +11,7 @@ import Type from "./Type";
 import { Download } from "lucide-react";
 import { motion } from "framer-motion";
 import "./Home.css";
-import pdf from "../../Assets/../Assets/Nitesh_Resume 7.2.pdf";
+import pdf from "../../Assets/../Assets/Nitesh_Resume 8.0.pdf";
 
 
 function Home() {
