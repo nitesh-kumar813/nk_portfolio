@@ -8,19 +8,31 @@ import Movix from "../../Assets/Projects/movix.png";
 import healthcare from "../../Assets/Projects/healthcare.png";
 import youtube from "../../Assets/Projects/youtube.png";
 import video from "../../Assets/Projects/video.png";
+import goalaxis from "../../Assets/Projects/goalaxis.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1  style={{ color: "rgb(255, 255, 255)" }}>
+        <h1 style={{ color: "rgb(255, 255, 255)" }}>
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white " }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={goalaxis} // 👈 yahan pe project ka thumbnail image import karna hoga
+              isBlog={false}
+              title="Goalaxis"
+              description="A modern job portal app designed to simplify job hunting and recruitment. Built with Next.js and TypeScript, it offers an intuitive interface for posting, applying, and managing job listings efficiently."
+              ghLink="https://github.com/nitesh-kumar813/Goalaxis"
+              demoLink="https://goalaxis.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={healthcare}
@@ -61,7 +73,6 @@ function Projects() {
               title="Youtube"
               description="A sleek, React-powered app for an immersive YouTube experience. Effortlessly search, watch, and explore videos with a user-friendly interface and personalized recommendations. Designed to elevate video streaming, it provides a smooth, engaging way to enjoy and discover content."
               ghLink="https://github.com/nitesh-kumar813/Youtube-website"
-            
             />
           </Col>
 
@@ -72,7 +83,6 @@ function Projects() {
               title="Disney Plus"
               description=" React-based clone of Disney Plus, offering an engaging streaming experience with a sleek interface. It includes features for browsing and watching content, with advanced UI elements to enhance user interaction. Designed to deliver a seamless and immersive viewing experience."
               ghLink="https://github.com/nitesh-kumar813/Disney__Clone"
-               
             />
           </Col>
           <Col md={4} className="project-card">
@@ -82,7 +92,6 @@ function Projects() {
               title="RainDown"
               description="A user-friendly web app providing real-time weather updates and forecasts. Built with modern web technologies, it offers accurate weather information, interactive maps, and customizable notifications. Designed to help users plan their day effectively and stay informed about changing weather conditions."
               ghLink="https://github.com/nitesh-kumar813/weather_app"
-                           
             />
           </Col>
         </Row>
